@@ -1,30 +1,11 @@
-require "ext_sprockets/configuration"
-
 module ExtSprockets
   class Engine < ::Rails::Engine
-   
-    # Initialize engine dependencies on wrapper application
-    Gem.loaded_specs["ext_sprockets"].dependencies.each do |d|
-      begin
-        require d.name
-      rescue LoadError => e
-        # Put exceptions here.
-      end
+    initializer 'ext_sprockets.assets.paths' do |app|
+      app.config.assets.paths << root.join('node_modules')
     end
-   
-    # Uncomment if migrations need to be shared
-    # initializer :append_migrations do |app|
-    #   unless app.root.to_s.match root.to_s
-    #     config.paths["db/migrate"].expanded.each do |expanded_path|
-    #       app.config.paths["db/migrate"] << expanded_path
-    #     end
-    #   end
-    # end
-   
-    config.to_prepare do
-      # Dir[Engine.root.join("{app,lib}/**/*_decorator.rb")].each do |c|
-      #   require_dependency(c)
-      # end
+
+    initializer 'ext_sprockets.assets.precompile' do |app|
+      app.config.assets.precompile << 'roboto-fontface/fonts/*'
     end
   end
 end
