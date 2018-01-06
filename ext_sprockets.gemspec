@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = "ExtSprockets"
   s.license     = "MIT"
 
-  s.files = Dir["{bin,lib}/**/*", "MIT-LICENSE", "README.md"]
+  s.files = `git ls-files -z`.split("\x0")
 
   s.add_dependency "sprockets-rails", "~> 3.2"
 
