@@ -4,6 +4,7 @@ pkg/
 ext_sprockets-*.gem
 
 # KEEP_FILES_BEGIN
+node_modules/auto-bind*
 node_modules/bootstrap*
 
 node_modules/bootswatch/*/*.css
@@ -37,6 +38,11 @@ node_modules/eonasdan-bootstrap-datetimepicker/src/nuget*
 node_modules/file-saver/*
 !node_modules/file-saver/FileSaver.js
 !node_modules/file-saver/package.json
+
+node_modules/jpeg-camera-es6/*
+!node_modules/jpeg-camera-es6/dist*
+!node_modules/jpeg-camera-es6/dist/jpeg_camera.js
+!node_modules/jpeg-camera-es6/package.json
 
 node_modules/jquery/*
 !node_modules/jquery/dist*
