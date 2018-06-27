@@ -4,7 +4,13 @@ pkg/
 ext_sprockets-*.gem
 
 # KEEP_FILES_BEGIN
-node_modules/bootstrap*
+node_modules/bootstrap/*
+
+node_modules/bootstrap-sass/assets/fonts/*
+node_modules/bootstrap-sass/assets/images/*
+node_modules/bootstrap-sass/assets/*/*.min.js
+node_modules/bootstrap-sass/*.js
+node_modules/bootstrap-sass/*.md
 
 node_modules/bootswatch/*/*.css
 node_modules/bootswatch/*/*.less

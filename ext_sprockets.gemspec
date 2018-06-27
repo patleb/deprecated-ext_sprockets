@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
   s.files = `git ls-files -z`.split("\x0")
 
   s.add_dependency "sprockets-rails", "~> 3.2"
+  s.add_dependency "sprockets", "~> 3.7" # "~> 4.0.0.beta8"
 
   s.add_development_dependency "railties"
 end
