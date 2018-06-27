@@ -72,7 +72,7 @@ DEPENDENCIES
   ext_yarn!
   railties (~> 5.1.0)
   sprockets (~> 3.7, >= 3.7.2)
-  sprockets-rails (~> 3.2)
+  sprockets-rails
 
 BUNDLED WITH
    1.16.2
