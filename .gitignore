@@ -44,6 +44,11 @@ node_modules/file-saver/*
 !node_modules/file-saver/FileSaver.js
 !node_modules/file-saver/package.json
 
+node_modules/font-awesome-sass/*
+!node_modules/font-awesome-sass/assets*
+!node_modules/font-awesome-sass/LICENSE.txt
+!node_modules/font-awesome-sass/package.json
+
 node_modules/jquery/*
 !node_modules/jquery/dist*
 node_modules/jquery/dist/core.js
