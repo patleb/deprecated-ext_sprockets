@@ -1,7 +1,7 @@
 .bundle/
 log/*.log
 pkg/
-ext_sprockets-*.gem
+ext_yarn-*.gem
 
 # KEEP_FILES_BEGIN
 node_modules/bootstrap/*

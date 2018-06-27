@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ext_sprockets (0.1.6)
+    ext_yarn (0.1.0)
       sprockets (~> 3.7)
       sprockets-rails (~> 3.2)
 
@@ -71,7 +71,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ext_sprockets!
+  ext_yarn!
   railties
 
 BUNDLED WITH
