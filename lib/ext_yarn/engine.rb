@@ -11,11 +11,5 @@ module ExtYarn
         app.config.assets.paths << root.join('node_modules/font-awesome-sass/assets', type)
       end
     end
-
-    initializer 'ext_yarn.assets.precompile' do |app|
-      app.config.assets.precompile << 'roboto-fontface/fonts/*'
-
-      app.config.assets.precompile << "font-awesome/fontawesome-webfont.*"
-    end
   end
 end
