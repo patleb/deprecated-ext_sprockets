@@ -17,7 +17,6 @@ node_modules/bootswatch/*/*.less
 node_modules/bootswatch/*/*.png
 node_modules/bootswatch/fonts/*
 node_modules/bootswatch/.npmignore
-node_modules/bootswatch/LICENSE
 node_modules/bootswatch/README.md
 
 node_modules/chart.js/*
@@ -27,22 +26,26 @@ node_modules/chart.js/dist/*.min.js
 !node_modules/chart.js/dist/Chart.bundle.js
 !node_modules/chart.js/dist/Chart.js
 !node_modules/chart.js/package.json
+!node_modules/chart.js/LICENSE.md
 node_modules/chartjs*
 node_modules/color-*
 
 node_modules/chartkick/*
 !node_modules/chartkick/chartkick.js
 !node_modules/chartkick/package.json
+!node_modules/chartkick/LICENSE.txt
 
 node_modules/eonasdan-bootstrap-datetimepicker/*
 !node_modules/eonasdan-bootstrap-datetimepicker/src*
 node_modules/eonasdan-bootstrap-datetimepicker/src/less*
 node_modules/eonasdan-bootstrap-datetimepicker/src/nuget*
 !node_modules/eonasdan-bootstrap-datetimepicker/package.json
+!node_modules/eonasdan-bootstrap-datetimepicker/LICENSE
 
 node_modules/file-saver/*
 !node_modules/file-saver/FileSaver.js
 !node_modules/file-saver/package.json
+!node_modules/file-saver/LICENSE.md
 
 node_modules/font-awesome-sass/*
 !node_modules/font-awesome-sass/assets*
@@ -56,36 +59,43 @@ node_modules/jquery/dist/*.min.*
 !node_modules/jquery/dist/jquery.js
 !node_modules/jquery/dist/jquery.slim.js
 !node_modules/jquery/package.json
+!node_modules/jquery/LICENSE.txt
 
 node_modules/jquery-pjax/*
 !node_modules/jquery-pjax/jquery.pjax.js
 !node_modules/jquery-pjax/package.json
+!node_modules/jquery-pjax/LICENSE
 
 node_modules/jquery-ui/*
 !node_modules/jquery-ui/themes*
 !node_modules/jquery-ui/ui*
 node_modules/jquery-ui/ui/.jshintrc
 !node_modules/jquery-ui/package.json
+!node_modules/jquery-ui/LICENSE.txt
 
 node_modules/jquery-ujs/*
 !node_modules/jquery-ujs/src*
 !node_modules/jquery-ujs/package.json
+!node_modules/jquery-ujs/MIT-LICENSE
 
 node_modules/js-cookie/*
 !node_modules/js-cookie/src*
 !node_modules/js-cookie/src/js.cookie.js
 !node_modules/js-cookie/package.json
+!node_modules/js-cookie/LICENSE
 
 node_modules/jstz/*
 !node_modules/jstz/dist*
 node_modules/jstz/dist/*.ts
 node_modules/jstz/dist/*.min.*
 !node_modules/jstz/package.json
+!node_modules/jstz/LICENCE
 
 node_modules/lodash/*
 !node_modules/lodash/core.js
 !node_modules/lodash/lodash.js
 !node_modules/lodash/package.json
+!node_modules/lodash/LICENSE
 
 node_modules/moment/*
 !node_modules/moment/locale*
@@ -95,12 +105,14 @@ node_modules/moment/min/*.min.js
 !node_modules/moment/min/moment-with-locales.js
 !node_modules/moment/moment.js
 !node_modules/moment/package.json
+!node_modules/moment/LICENSE
 
 node_modules/moment-timezone/*
 !node_modules/moment-timezone/builds*
 node_modules/moment-timezone/builds/*.min.js
 !node_modules/moment-timezone/moment-*.js
 !node_modules/moment-timezone/package.json
+!node_modules/moment-timezone/LICENSE
 
 node_modules/nprogress/*
 !node_modules/nprogress/support*
@@ -109,13 +121,15 @@ node_modules/nprogress/support/*.css
 !node_modules/nprogress/nprogress.css
 !node_modules/nprogress/nprogress.js
 !node_modules/nprogress/package.json
+!node_modules/nprogress/License.md
 
 node_modules/roboto-fontface/*
 !node_modules/roboto-fontface/css*
 node_modules/roboto-fontface/css/**/*.css
 node_modules/roboto-fontface/css/**/*.less
-!node_modules/roboto-fontface/package.json
 !node_modules/roboto-fontface/fonts*
+!node_modules/roboto-fontface/package.json
+!node_modules/roboto-fontface/LICENSE
 
 node_modules/signature_pad/*
 !node_modules/signature_pad/dist*
